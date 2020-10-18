@@ -1,0 +1,9 @@
+Steps:
+
+Install LAMP Server on Ubuntu
+Install memcached and PHP memcache extension
+Create a mysql user, database and a table with information
+Create PHP Script to cache data input in mysql database
+Cache configured to expire after 20 seconds.
+
+https://cloudkul.com/blog/cache-mysql-data-using-memcached-a-more-practical-approach-to-memcached/
