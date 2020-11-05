@@ -4,7 +4,7 @@ const documentClient = new AWS.DynamoDB.DocumentClient();
 
 exports.handler = async event => {
   const params = {
-    TableName: "books" // The name of your DynamoDB table
+    TableName: "Books" // The name of your DynamoDB table
   };
   try {
     // Utilising the scan method to get all items in the table
