@@ -1,0 +1,40 @@
+Below are the test events for all the lambda functions used.
+
+1. create-book 
+
+{
+  "body": "{\"title\":\"Harry Potter\"}"
+}
+
+2. get-books
+
+{
+  "key1": "value1",
+  "key2": "value2",
+  "key3": "value3"
+}
+
+3. get-book
+
+{
+  "pathParameters": {
+    "id": "b2e62eceb7bef1df08ce8c855f91a4fd"
+  }
+}
+
+4. delete-book
+
+{
+  "pathParameters": {
+    "id": "b2e62eceb7bef1df08ce8c855f91a4fd"
+  }
+}
+
+5. update-book
+
+{
+  "pathParameters": {
+    "id": "bec4be01547f56fc711afe0894c9c69a"
+  },
+  "body": "{\"title\":\"Harry Potter\"}"
+}
