@@ -10,7 +10,7 @@ const documentClient = new AWS.DynamoDB.DocumentClient();
 exports.handler = async event => {
   const { title } = JSON.parse(event.body);
   const params = {
-    TableName: "books", // The name of your DynamoDB table
+    TableName: "Books", // The name of your DynamoDB table
     Item: { // Creating an Item with a unique id and with the passed title
       id: generateUUID(),
       title: title
